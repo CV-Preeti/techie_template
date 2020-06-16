@@ -4,11 +4,22 @@ html,body{
     box-sizing: border-box;
     font-family: 'Roboto Slab', serif;
     list-style-type: none;
+    letter-spacing:1.5px;
 }
 
 html,body{
     margin:0;
     padding:0;
+
+}
+h5{
+    text-transform: capitalize;
+    font-size: small;
+    font-weight:100 ;
+    opacity:0.5;
+    color:white;
+    padding: 0px 10px 0px 10px;
+    text-align: center;
 
 }
 .navbar{
@@ -74,8 +85,23 @@ ul li a{
     height:80vh;
 
 }
+.loginbtn{
+ border-radius: 10px;
+outline:none; border:none;}
+
+.btnwrapper{
+ display:flex;
+ justify-content: center;
+ top:2vh;
+ 
+ position:relative;
+}
+
+
 .nav-link{
     text-transform: uppercase;
+    font-size: 15px;
+    font-weight: 100;
     
 }
 .nav-item{
@@ -89,19 +115,20 @@ ul li a{
     border-color: white;
     text-transform: uppercase;
     max-width:20vw ;
-    margin-left: 10px;
+    margin-left: 10px;font-size: 15px;
+    font-weight: 100;
 }
  .main_container .container{
     
     margin-bottom: 25vh;
     height:auto;
-    top:25vh;
+    top:20vh;
     position:relative;
 }
  .main_container .container p{
     text-transform: uppercase;
-    font-weight: 600;
-    font-size: large;
+    font-weight: 400;
+    font-size: 22px;
     
     padding:10px ;
    color:white;
@@ -125,14 +152,16 @@ ul li a{
     border-radius:10px ; outline:none ;
     max-width: 20vw;
     color:white;
-    background-color: transparent;
+    background-image:linear-gradient( to right, rgb(39, 8, 109),rgb(95, 179, 190));
     text-transform: uppercase;
-    padding: 5px 10px 5px 10px;
-    border-color: white;
+    padding: 5px 0px 5px 0px;
+    border:none;
     margin-left:30px ;
     margin-top:25px ;
     margin-bottom:20px ;
     min-width: 10vw;
+    font-size: 15px;
+    font-weight: 100;
 }
 .container button:hover{
     color:yellow;
@@ -143,7 +172,7 @@ ul li a{
     position:relative;
 
 }
-.secndpart p{
+.secndpart h1{
     font-size: xx-large;
     padding:10px;
     margin:10px;
@@ -160,9 +189,9 @@ ul li a{
     opacity: 1;
 }
 .secndpart button{
-   background-image: linear-gradient(to right,#54138A,#864c94);
+   background-image: linear-gradient(to right,#54138A,#bb64d1);
    padding:10px;
-   margin:10px;
+   margin:20px;
    color:white;
    border:none;outline:none;
 } 
@@ -171,8 +200,55 @@ ul li a{
     top:25vh;
     height:15vh;
     
-    background-image: linear-gradient( to right,#3a2ea5 0%,#54138A 50%,#864c94 100%);
+    
 }
+.img_container{
+    position:relative;
+    background-color:#3a2ea5 ;
+    top:25vh;
+    height:25vh; 
+    
+}
+.div1{
+    height:25vh;
+    position:relative;
+    margin:0px;
+    background-color:#2c1c88;
+    float:left;
+    clip-path: polygon(0 0, 50% 0, 64% 39%, 83% 78%, 100% 100%, 43% 100%, 0 100%, 0 36%);
+    
+    width:35%;
+    
+}
+.div2{
+    height:25vh;
+    position:relative;
+    background-image: linear-gradient(to right,#5347c0,#8e33a5 );
+    
+    width:35%;
+    float:right;
+    
+    
+    clip-path: polygon(0 0, 100% 0, 100% 47%, 100% 100%, 79% 100%, 43% 100%, 27% 74%, 9% 32%);
+    right: 0px;}
+.img_container ul{
+    display:flex;
+    position:relative;
+    top:10vh;
+    justify-content: space-evenly;
+    align-items: center;
+    
+}
+.img_container ul li{
+    list-style: none;
+    
+}
+.img_container ul h3{
+    padding:0px 100px 0px 100px;
+    color:white;  
+}
+
+
 
     
     
