@@ -110,7 +110,7 @@ margin:20px 5px 20px 5px;}
     color:white;
     border-radius:10px ;
     padding:5px 5px 5px 5px;
-    background-color: transparent;
+    background-color: rgb(29, 13, 73);
     border-color: white;
     text-transform: uppercase;
     max-width:20vw ;
@@ -161,10 +161,6 @@ margin:20px 5px 20px 5px;}
     min-width: 10vw;
     font-size: 15px;
     font-weight: 100;
-}
-.container button:hover{
-    color:yellow;
-    border-color: yellow;
 }
 
 
@@ -249,7 +245,7 @@ margin:20px 5px 20px 5px;}
     color:white;  
 }
 .section1{
-    background-color: rgba(189, 188, 188, 0.7);
+    background-color: rgba(235, 235, 235, 0.4);
     
     position:relative;
     top:27vh;
@@ -277,9 +273,7 @@ margin:20px 5px 20px 5px;}
    
    
 }
-.section1 .column:hover{
-    transform:translate(10px ,10px);
-}
+
 .section1 .thirdconrow{
     display:flex;
     flex-wrap: wrap;
@@ -328,7 +322,7 @@ margin:20px 5px 20px 5px;}
 .fourthpart{
     position:relative;
     
-    top:27vh;
+    top:29vh;
 }
 .fourthpart h3 ,.fourthpart h5,.fif_con h5{
     padding:10px;
@@ -359,7 +353,7 @@ color:black;
 }
 .fourthpart .f_col_1{
     position:relative;
-    margin:20px 10px 10px 20px;
+    margin:20px 10px 10px 50px;
     
     display:flex;
     flex-wrap: nowrap;
@@ -387,16 +381,16 @@ padding-top:20px;
 }
 .fif_con{
     position:relative;
-    top:27vh;
+    top:29vh;
     background-color:rgba(204, 203, 203, 0.7) ;
     padding:5px;
 }
- .fif_con h1
+ .fif_con h3
 {
  text-align: center;
- font-size: 40px;
- margin-top: 8px;
- font-weight: 600;
+ 
+ margin-top: 15px;
+ 
  padding:10px;
 }
 
