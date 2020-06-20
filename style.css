@@ -64,21 +64,21 @@ ul li a{
     position:relative;
     
     background-color:#3a2ea5;
+    width:100vw;
     
     
     
-    z-index: 1;
 }
 .first_container{
-    background-color:#71abbe ;
+    
     margin:0px;
-   
-     background-color: #54138A;
+    width:100vw;
+     
      background-image: linear-gradient(to bottom,#54138A,#bc8ee2);
      background-image: linear-gradient(to right,#54138A,#6a3c75);
    
  clip-path: circle(68.6% at 50% 25%);
-    z-index: 2;
+    
     height:80vh;
 
 }
@@ -109,9 +109,10 @@ margin:20px 5px 20px 5px;}
 .navbtn{
     color:white;
     border-radius:10px ;
+    
     padding:5px 5px 5px 5px;
     background-color: rgb(29, 13, 73);
-    border-color: white;
+    border:3px solid white;
     text-transform: uppercase;
     max-width:20vw ;
     margin-left: 10px;font-size: 15px;
@@ -231,18 +232,21 @@ margin:20px 5px 20px 5px;}
 .img_container ul{
     display:flex;
     position:relative;
-    top:10vh;
+    top:8vh;
     justify-content: space-evenly;
-    align-items: center;
+   
+    
     
 }
 .img_container ul li{
     list-style: none;
+    border: 1px solid black;
     
 }
 .img_container ul h3{
     padding:0 10vw 0 10vw;
-    color:white;  
+    color:white;
+    border:1px solid black;  
 }
 .section1{
     background-color: rgba(235, 235, 235, 0.4);
@@ -282,7 +286,7 @@ margin:20px 5px 20px 5px;}
 }
 .section1 .lorem_shape{
     margin:20px;
-   border:1px solid black;
+   
    height:110px;
    width:110px;
    position:relative;
@@ -301,7 +305,7 @@ margin:20px 5px 20px 5px;}
    padding:5px 30px 5px 30px;
     color:black;
     font-weight: 100;
-    border:1px solid black;
+    
     font-size: medium;
     margin:10px ;
 
@@ -314,7 +318,7 @@ margin:20px 5px 20px 5px;}
     margin:10px 10px 40px 10px;
     font-size: small;
     padding:5px 30px 5px 30px;
-    border:1px solid black;
+    
 }
 .section1 button{
     position:absolute;
@@ -390,6 +394,7 @@ padding-top:20px;
 .fif_con{
     position:relative;
     top:29vh;
+    
     background-color:rgba(204, 203, 203, 0.7) ;
     padding:5px;
 }
@@ -481,7 +486,7 @@ border:none;}
     top:32vh;
     border:1px solid;
     background-color:rgba(204, 203, 203, 0.5) ;
-    padding:5px;
+    
 }
 .s_con .s_row{
     display:flex;
@@ -540,7 +545,7 @@ border:none;}
     top:35vh;
     background-color:rgba(204, 203, 203, 0.5) ;
     
-    border:1px solid black;
+    
 
 }
 .seven_part .container{
@@ -549,11 +554,11 @@ border:none;}
 
     margin:10px auto; 
     padding:5px;
-    border:1px solid black;
+    
 
 }
 .seven_part .col-lg-5,.seven_part .col-lg-3{
-    border:1px solid black;
+    
     background-color: white;
     margin:15px;
     padding:5px;
@@ -574,7 +579,7 @@ border:none;}
      position: relative;
      top:40vh;
      
-    z-index: 100;
+    
     background-image: repeating-linear-gradient(to right bottom,#3d0d64 0% ,#7626b8 10% ,#5b3ec5 30%,#5b208b 80% );
     } 
      
@@ -654,6 +659,31 @@ border:none;}
      width:8vw;
      
  }
+ .footer .social_icon{
+     position: relative;
+     
+ }
+ @media screen and (max-width:861px)
+ { .navbar ul{
+     background-color: rgba(6, 12, 39, 0.98);
+ }
+ .navbar ul button{
+     margin-bottom:20px ;
+     margin-top: 20px;
+ }
+ .img_container ul h3{
+     font-size:medium ;
+     padding:0px 45px 0px 45px;
+ }
+ .img_container ul{
+     top:5vh;
+ }
+ .img_container ul li span{
+     font-size: small;
+ }
+
+ }
+ 
  
  
 
